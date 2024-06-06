@@ -24,7 +24,7 @@ To compile and run this program, you need a C compiler such as gcc.
 Bash
 
 
-    git clone https://github.com/yourusername/ATM_Simulator.git
+    git clone https://github.com/Chinilshik-kalkulatorov/ATM_Simulator.git
     cd ATM_Simulator
     
 2. Compile the program:
@@ -59,7 +59,7 @@ After running the program, follow the on-screen prompts to perform various ATM t
     - 6. Quit - Exit the program.
 
 ### Example Session
-\`\`\`plaintext
+```plaintext
 Select Card (1 or 2): 1
 Enter PIN: 1234
 1. Change PIN
@@ -70,10 +70,10 @@ Enter PIN: 1234
 6. Quit
 Select an option: 2
 Current balance: Â£1234.60
-\`\`\`
+```
 
 ### Diagram
-\`\`\`mermaid
+```mermaid
 graph TD
     A[Start] --> B[Select Card]
     B --> C[Enter PIN]
@@ -92,7 +92,7 @@ graph TD
     I --> D
     J --> A
     K --> L[End]
-\`\`\`
+```
 
 
 
