@@ -20,26 +20,20 @@ To compile and run this program, you need a C compiler such as gcc.
 
 ### Installation
 1. Clone the repository:
-   
-Bash
-
-
-    git clone https://github.com/Chinilshik-kalkulatorov/ATM_Simulator.git
+    ```sh
+    git clone https://github.com/yourusername/ATM_Simulator.git
     cd ATM_Simulator
-    
+    ```
+
 2. Compile the program:
-   
-Bash
-
-
+    ```sh
     gcc -o atm_simulator atm_simulator.c
-    
+    ```
+
 3. Run the program:
-   
-Bash
-
-
+    ```sh
     ./atm_simulator
+    ```
     
 ## Usage
 After running the program, follow the on-screen prompts to perform various ATM transactions. Below are the steps to use the ATM Simulator:
